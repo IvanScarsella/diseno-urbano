@@ -23,8 +23,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FFF;
+    --foreground: #181818;
   }
 }
 
@@ -36,4 +36,18 @@ body {
 
 img {
   max-width: none;
+}
+
+.dot {
+  width: 16 !important;
+  height: 8 !important;
+  opacity: 1 !important;
+  border-radius: 8px !important;
+  background: #F9F9F9 !important;
+  box-shadow: none !important;
+  margin: 4px !important;
+}
+
+.dot.selected {
+  background: #181818 !important;
 }
