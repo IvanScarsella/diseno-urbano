@@ -6,7 +6,7 @@ const featured = [
 
 export default function Featured() {
    return (
-      <div className="h-[92px] text-2xl font-merriweather p-4">
+      <div className="h-[92px] text-2xl font-merriweather m-4">
          <p className=" pb-4">Los más buscados</p>
          <ul className="flex flex-row overflow-auto">
             {featured.map((item) => (

@@ -51,3 +51,7 @@ img {
 .dot.selected {
   background: #181818 !important;
 }
+
+.bg-custom-gradient {
+  background: linear-gradient(131.51deg, #695C49 9.13%, #726450 33.6%, #83725B 66.8%, #8B7961 95.45%);
+}
